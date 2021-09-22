@@ -15,7 +15,10 @@ class HomePage:
 
     def verify_valid_login_text(self):
         time.sleep(2)
-        assert self.driver.find_element_by_xpath(self.homepage_xpath).text == "Home"
+        try:
+            assert self.driver.find_element_by_xpath(self.homepage_xpath).text == "Home"
+        except NoSuchElementException:
+            assert False
 
     def logout_user(self):
         try:
