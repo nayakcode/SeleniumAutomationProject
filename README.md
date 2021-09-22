@@ -13,7 +13,7 @@ configparser
 ### Steps to run the project ###
 
 1. Clone the repository
-2. #### Open the config.ini file (SeleniumAutomationProject/Configurations/config.ini) and provide valid username and password to test the valid scenarios ####
+2. ### Open the config.ini file (SeleniumAutomationProject/Configurations/config.ini) and provide valid username and password to test the valid scenarios ###
 3. Navigate to the root folder of the project (SeleniumAutomationProject)
 4. Run the command - python3 -m LoginTestProject.Tests.hudlLoginTest
 
